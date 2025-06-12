@@ -1,0 +1,76 @@
+# ----------------------------------------
+# Terraform
+# ----------------------------------------
+
+# Local .terraform directories
+.terraform/
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Sensitive variable files
+*.tfvars
+*.tfvars.json
+
+# Override files
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Terraform plan output files
+*.tfplan
+
+# Lock info file
+.terraform.tfstate.lock.info
+
+# Terraform CLI config files
+.terraformrc
+terraform.rc
+
+# ----------------------------------------
+# General
+# ----------------------------------------
+
+# OS or IDE generated
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Logs
+*.log
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+
+# Secrets or keys
+*.pem
+*.key
+*.crt
+*.env
+
+# Node.js (if any tools are added)
+node_modules/
+
+# Python (if used in scripting)
+__pycache__/
+*.py[cod]
+
+# Backup files
+*.bak
+*~
+
+# ----------------------------------------
+# Optional: Include specific overrides
+# Uncomment if needed
+# !example_override.tf
