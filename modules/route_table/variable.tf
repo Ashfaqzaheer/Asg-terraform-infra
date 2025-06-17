@@ -9,9 +9,9 @@ variable "internet_gateway_id" {
 }
 
 variable "public_subnet_ids" {
-  description = "List of public subnet IDs"
-  type        = list(string)
+  type = map(string)
 }
+
 
 variable "name" {
   description = "Name tag for the route table"

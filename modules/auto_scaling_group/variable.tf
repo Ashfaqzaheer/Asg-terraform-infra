@@ -1,9 +1,23 @@
-variable "launch_template_id" {
-  description = "ID of the launch template"
-  type        = string
+variable "subnet_ids" {
+  type = list(string)
 }
 
-variable "subnet_ids" {
-  description = "List of subnet IDs for ASG"
-  type        = list(string)
+variable "launch_template_id" {
+  type = string
+}
+
+variable "target_group_arn" {
+  type = string
+}
+
+variable "min_size" {
+  type = number
+}
+
+variable "max_size" {
+  type = number
+}
+
+variable "desired_capacity" {
+  type = number
 }
